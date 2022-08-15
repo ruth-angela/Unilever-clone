@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin:0;
+}
+.brand{
+    width: 150px; 
+    height: 150px;
+}
+.head{
+    display: flex;
+    justify-content: flex-start;
+    background-color:rgb(19, 108, 186);
+}
+.nav1{
+    display: flex;
+    flex-direction:column;
+    font-size: 1.15em;
+    align-items:flex-end;
+    justify-content:flex-end;
+}
+li, a{
+    color:white;
+}
+ul{
+    list-style-type: none;
+}
+.list1{
+    display: flex;
+    gap: 1.5em;
+    font-family: 'sans-serif';
+}
+.list2{
+    display: flex;
+    gap: 1.5em;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.head1{
+    display: flex;
+    background-color: rgb(250, 157, 172);
+    justify-content: center;
+    background-size:  50%;
+}
+.pic1{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: 45%;
+}
+.p1{
+    background-color: rgb(74, 74, 236);
+    width: 20%;
+    height: 65%;
+    padding: 2%;
+    font-size:x-large;
+    color: white;
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    color:rgb(26, 123, 155);
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 15px;
+    align-items: flex-end;
+}
+.container >div>p>a{
+    color:blue;
+}
+.item1{
+    display:flex;
+    flex-direction:column;
+}
+.head2{
+    background-color: rgb(20, 20, 180);
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+.abc{
+    font-size: 160%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.a{
+    color:rgb(209, 127, 209);
+}
+.b{
+    color: rgb(192, 92, 92);
+}
+.c{
+    color:rgb(82, 148, 82);
+}
+.price{
+    display: flex;
+    width: 150%;
+    height: 150%;
+}
+.container2{
+    display: flex;
+    background-color:rgb(143, 242, 226) ;
+    flex-direction: column;
+}
+.d2{
+    flex-direction: row;
+     display: flex;
+}
+.pc{
+    color: gray;
+}
+.dd{
+    text-decoration: underline;
+    color: blue;
+}
+.container3{
+    display: flex;
+    background-color:rgb(20, 20, 180) ;
+    color: white;
+}
+.container4{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 15px;
+    align-items: flex-end;
+    text-decoration: none;
+}
+.aa{
+    color: rgb(156, 153, 153);
+    font-size: 115%;
+    text-decoration: none;
+}
+.container4 div>p>a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.icon{
+    color:rgb(84, 23, 141);
+    font-size: 250%;
+}
+.footer{
+    background-color: rgb(25, 25, 206);
+    color: white;
+    font-family:sans-serif;
+    font-weight: 400;
+    
+}
+.ft1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+    text-decoration: underline;
+    margin:30px;
+    font-size: 100%;
+    line-height: 40px;
+    gap: 1.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.cu{
+    color: rgb(65, 65, 235);
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p4{
+    color: rgb(119, 115, 115);
+    font-size:medium;
+    font-family: serif;
+}
+.prg{
+    font-size: 160%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.p{
+    color: rgb(148, 79, 148);
+}
+.r{
+    color: rgb(230, 74, 74);
+}
+.g{
+    color: rgb(125, 228, 125);
+}
+.contactus{
+    justify-content: flex-end;
+
+}
+
+
+
+
